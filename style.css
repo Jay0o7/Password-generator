@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    border: 3px solid rgb(255, 183, 0);
+    margin: auto;
+    text-align: left;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 9px 6px rgb(255, 183, 0);
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: greenyellow;
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    font-size: 20px;
+}
+#length{
+    font-size: 1.5rem;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: yellow;
+}
+#length-display{
+    width: 150px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-size: 1.05rem;
+    border: 3px solid aqua;
+    background-color: black;
+    color: rgb(0, 182, 182);
+}
+.check-box{
+    color: goldenrod;
+    cursor: pointer;
+}
+#box{
+    margin-bottom: 80px;
+}
+button{
+    width: 100px;
+    padding: 10px 8px;
+    font-weight: bolder;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: aqua;
+    border: 3px solid rgb(0, 171, 233);
+}
+.res{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    color: rgb(255, 0, 255);
+}
+#result{
+    background-color: red;
+    color: black;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 3px 5px;
+}
